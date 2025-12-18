@@ -21,7 +21,7 @@ form.addEventListener('submit', event => {
       iziToast.success({
         icon: '',
         backgroundColor: ' #59a10d',
-        messageSize: '32px',
+
         message: `✅ Fulfilled promise in ${delay}ms`,
         messageColor: 'rgba(255, 255, 255, 1)',
         position: 'topRight',
@@ -34,7 +34,6 @@ form.addEventListener('submit', event => {
         message: `❌ Rejected promise in ${delay}ms`,
         position: 'topRight',
         messageColor: 'rgba(255, 255, 255, 1)',
-        messageSize: '16px',
       });
     });
 });
